@@ -21,4 +21,8 @@ export class AppComponent {
       this.data =data
     })
   }
+
+  // ngOnInit(){
+  //   this.callTheApi()
+  // }
 }

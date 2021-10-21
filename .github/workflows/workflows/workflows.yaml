@@ -1,0 +1,13 @@
+name: deploying to Github pages
+on:
+  push:
+    branches:
+      -"master"
+
+jobs:
+  # Create the jobs
+  name: Build and Test
+  rus on: ubuntu_latest
+
+  steps:
+        - git checkout master

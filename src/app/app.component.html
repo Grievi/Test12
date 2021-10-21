@@ -3,14 +3,18 @@
    <button (click)='callTheApi()' class="btn btn-outline-primary">Click Me</button>
 
    <ul *ngFor='let datas of data' >
-    <div class="content" >
-      <li>{{datas.userId}}</li>
-      <li>{{datas.id}}</li>
-      <li>{{datas.title}}</li>
-      <li>{{datas.body}}</li>
+    <div class="row" >
+      <div class="col-md-8">
+        <li>{{datas.userId}}</li>
+        <li>{{datas.body}}</li>
+      </div>
+      <div class="col-md-4">
+        <li>{{datas.id}}</li>
+        <li>{{datas.title}}</li>
+      </div>
     </div>
    </ul>
- 
+
 </div>
 
 
